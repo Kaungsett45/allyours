@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
       >
     
          <Fnavigation/>  {/* navigation components*/}
-          <div className="">{children}</div>
+          <div className="animate-fadeIn">{children}</div>
           <AllFooter/>
           </body>
     </html>

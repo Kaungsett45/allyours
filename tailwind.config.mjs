@@ -7,6 +7,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
       screens: {
         xs: '320px',      // Extra small devices (small smartphones)
         sm: '576px',      // Small devices (larger smartphones)
