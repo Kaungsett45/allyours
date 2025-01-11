@@ -66,7 +66,7 @@ export default function Navigation() {
               :  "mx-1 bg-secondary border-2 text-egw border-white  px-4 py-2 rounded-full"
            }`}
           >
-            <Link href={item2.path}>
+            <Link href={item2.path} onClick={() => setIsOpen(false)}>
               <h1 className="block font-bold">{item2.name}</h1>
             </Link>
           </li>
