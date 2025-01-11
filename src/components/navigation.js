@@ -14,11 +14,14 @@ export default function Navigation() {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Our Works", path: "/ourworks" },
-    { name: "Apply", path: "/apply" },
     { name: "Newsletter", path: "/newsletter" },
-    { name: "Volunteer", path: "/volunteer" },
     { name: "Support Us", path: "/supportus" },
+  
   ];
+  const navItems2=[
+    { name: "Volunteer", path: "/volunteer" },
+    { name: "Apply", path: "/apply" },
+  ]
 
   return (
     <div className="relative z-50 mt-4">
@@ -44,15 +47,31 @@ export default function Navigation() {
               key={index}
               className={`text-xl ${
                 pathname === item.path
-                  ? "bg-egw text-primary px-4 py-2 rounded-full"
-                  : "text-egw hover:text-white"
-              }`}
+                ? "text-white font-extrabold"
+                : "text-eg2s hover:text-white"
+            }`}
             >
               <Link href={item.path} onClick={() => setIsOpen(false)}>
                 <h1 className="block font-bold">{item.name}</h1>
               </Link>
             </li>
           ))}
+           <ul className="flex flex-col text-center gap-3 mx-1 my-2  rounded-full py-1">
+          {navItems2.map((item2, index) => (
+          <li
+            key={index}
+            className={` ${
+              pathname === item2.path
+              ? "text-secondary bg-egw mx-1  border-2  border-secondary  px-4 py-2 rounded-full"
+              :  "mx-1 bg-secondary border-2 text-egw border-white  px-4 py-2 rounded-full"
+           }`}
+          >
+            <Link href={item2.path}>
+              <h1 className="block font-bold">{item2.name}</h1>
+            </Link>
+          </li>
+        ))}
+        </ul>
         </ul>
       </div>
 
@@ -63,16 +82,34 @@ export default function Navigation() {
             key={index}
             className={`mx-1 my-2 ${
               pathname === item.path
-                ? "bg-egw text-primary px-4 py-2 rounded-full"
-                : "text-egw hover:text-white"
+                ? "text-white font-extrabold"
+                : "text-eg2s hover:text-white"
             }`}
           >
             <Link href={item.path}>
-              <h1 className="block font-bold">{item.name}</h1>
+              <h1 className="block font-semibold">{item.name}</h1>
             </Link>
           </li>
         ))}
+        <ul className="flex mx-1 my-2   rounded-full ">
+          {navItems2.map((item2, index) => (
+          <li
+            key={index}
+            className={` ${
+              pathname === item2.path
+               ? "text-secondary bg-egw mx-1  border-2  border-secondary  px-4 py-2 rounded-full"
+               :  "mx-1 bg-secondary border-2 text-egw border-white  px-4 py-2 rounded-full"
+            }`}
+          >
+            <Link href={item2.path}>
+              <h1 className="block font-bold">{item2.name}</h1>
+            </Link>
+          </li>
+        ))}
+        </ul>
       </ul>
+      {/*volunteer and apply navi */}
+     
     </div>
   );
 }

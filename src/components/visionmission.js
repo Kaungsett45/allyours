@@ -3,7 +3,7 @@
 
     return(
         <>
-       <div className="xs:bg-[#EBEBEB] lg:bg-transparent flex flex-col items-top xs:mt-4 lg:mt-20 md:flex-row md:justify-between lg:mx-auto  lg:max-w-screen-lg">
+       <div className="xs:bg-transparent lg:bg-transparent flex flex-col items-top xs:mt-4 lg:mt-20 md:flex-row md:justify-between lg:mx-auto  lg:max-w-screen-lg">
  {/*Vision  */}
         <div className='xs:w-full xs:p-3 lg:p-6 text-center md:max-w-[45%] lg:max-w-[50%]'>
             <h1 className='text-2xl sm:text-4xl font-bold  text-secondary tracking-wider'>Vision</h1>

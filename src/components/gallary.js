@@ -10,7 +10,7 @@ export default function Gallary() {
     <section className="">
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-6 lg:px-6">
             <div className="font-light text-gray-500  dark:text-gray-400">
-                <h2 className="mb-4 xs:text-2xl text-4xl  tracking-tight font-extrabold text-gray-900 dark:text-white">Laid-Back,Art and Philosophy</h2>
+                <h2 className="mb-4 xs:text-2xl text-4xl  tracking-tight font-extrabold text-egw  ">Laid-Back,Art and Philosophy</h2>
                 <p className="mb-4 text-pretty">the first in-person student-led club in Parami University, founded with a total of 11 members. Integrating art and philosophy, the club focused on cherishing cultural diversity through in-person meetings and virtual engagement with eco-friendly approaches</p>
             </div>
             <div className="grid grid-cols-2 gap-4 mt-8">
@@ -25,7 +25,7 @@ export default function Gallary() {
   <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-6 lg:px-6">
     {/* Text content */}
     <div className="font-light text-gray-500 dark:text-gray-400">
-      <h2 className="mb-4 xs:text-2xl text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+      <h2 className="mb-4 xs:text-2xl text-4xl tracking-tight font-extrabold text-egw ">
         Cupcakes for Pads
       </h2>
       <p className="mb-4 text-pretty">
@@ -55,7 +55,7 @@ export default function Gallary() {
     <section className="">
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-6 lg:px-6">
             <div className="font-light text-gray-500  dark:text-gray-400">
-                <h2 className="mb-4 xs:text-2xl text-4xl  tracking-tight font-extrabold text-gray-900 dark:text-white">Nway Htwe Aii</h2>
+                <h2 className="mb-4 xs:text-2xl text-4xl  tracking-tight font-extrabold text-egw ">Nway Htwe Aii</h2>
                 <p className="mb-4 text-pretty">provides mental health and psychosocial support (MHPSS) to hikikomori youth ("nway") by pairing them with supportive partners ("Htwe"). Over 15 days, it includes training sessions, meetings, and two nature healing trips to foster connections, build trust, and enhance mental well-being,</p>
             </div>
             <div className="grid grid-cols-2 gap-4 mt-8">

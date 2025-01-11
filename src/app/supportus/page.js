@@ -7,10 +7,10 @@ export default function Supportus(){
 
 
         <div className=" mt-10 bg-egw">
-             <h1 className='md:text-3xl  py-2 text-center font-bold text-4xl xs:text-2xl text-secondary tracking-wider'>Join Hands with allyours</h1>
+             <h1 className='md:text-3xl   p-3 text-center font-bold text-4xl xs:text-2xl text-secondary tracking-wider'>Join Hands with allyours</h1>
             
             {/**partnarship & donation part */}
-             <div className="p-4 flex justify-center gap-4 flex-wrap">
+             <div className="pb-6 flex justify-center gap-4 flex-wrap">
                         
 
             <div className="max-w-sm p-6 bg-secondary rounded-md">

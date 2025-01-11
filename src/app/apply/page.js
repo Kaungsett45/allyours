@@ -8,7 +8,7 @@ export default function Apply() {
      <div className='bg-gray-100'>
             <div className='  lg:mx-auto lg:max-w-screen-lg mt-4'>
               
-                      <section className="p-8 text-center">
+                      <section className="p-6 m-2 text-center">
                       <h1 className='md:text-3xl font-semibold xs:text-2xl lg:text-4xl  tracking-wider text-secondary'>Welcome to allyours</h1>
             <p className="text-md mt-2">The perfect haven for small project leaders, soloists like you.</p>
             <hr className="my-4 border-primary w-1/3 mx-auto" />
@@ -36,12 +36,12 @@ export default function Apply() {
                 <span>Illustrative design series</span>
               </div>
             </div>
-            <div className='mt-6 text-egw   font-bold'>
-            <Link href="#" className=" px-8 py-2 rounded-full bg-secondary border-white border-2">
+            <div className='mt-6  text-egw   font-bold'>
+            <Link href="#" className="mb-2  text-egw bg-secondary border-white border-2 px-10 py-4 rounded-full font-bold">
               Apply 
             </Link>
             </div>
-            <p className="mt-2">
+            <p className="mt-2 p-4">
               Not ready to apply? <a href="/learn-more" className="text-primary underline hover:text-blue-700">Learn More</a>
             </p>
           </section>

@@ -16,24 +16,49 @@ const Parallax = ({ children, imageUrl }) => {
   }, []);
 
   return (
-    <>
+  //   <>
+  //   <div
+  //     className=" bg-cover bg-no-repeat"
+  //     style={{
+  //       backgroundImage: "url('/bgwhite2.png')",
+  //       backgroundPosition: `center ${offset * -0.8}px`,
+  //       height:"120vh",
+  //     }}
+  //   ><style jsx>{`
+  //   @media (min-width: 826px) {
+  //     div {
+  //       background-position: center -120px; 
+  //     }
+  //   }
+  // `}</style>
+  //     {children}
+  //   </div>
+  //   </>
+<>
+  <div
+    className="relative overflow-hidden"
+    style={{
+    
+    }}
+  >
     <div
-      className=" bg-cover bg-no-repeat"
+      className="absolute inset-0 bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url('/bgwhite.png')",
-        backgroundPosition: `center ${offset * -0.8}px`,
-      
+        backgroundImage: "url('/bgwhite2.png')",
+        transform: `translateY(${offset * 0.5}px)`, // Parallax effect
+        willChange: "transform",
+       // Ensures no gaps at the bottom
+        backgroundPosition: "center top",
       }}
-    ><style jsx>{`
-    @media (min-width: 826px) {
-      div {
-        background-position: center -120px; 
-      }
-    }
-  `}</style>
+    ></div>
+    <div className="relative z-10">
       {children}
     </div>
-    </>
+  </div>
+</>
+
+
+
   );
 };
 

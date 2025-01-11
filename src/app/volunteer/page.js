@@ -8,7 +8,7 @@ export default function Volunteer(){
 
     return(
 
-        <div className=" xs:py-2 xs:my-2 bg-gray-50  flex flex-col items-center lg:px-4 lg:py-8 ">
+        <div className=" xs:py-2 xs:my-2 bg-gray-50  flex flex-col items-center lg:px-4 lg:py-6 ">
       
          <h1 className='md:text-3xl  xs:text-2xl font-bold text-4xl  tracking-wider text-secondary'>Welcome to allyours</h1>
          
@@ -28,11 +28,11 @@ export default function Volunteer(){
           
             { /* Learn  Section */}
             <div className="flex justify-center">
-            <Link href="#" className=' mt-6 text-egw bg-secondary border-white border-2 px-8 py-2 rounded-full font-bold'>
+            <Link href="#" className='mb-2  mt-6 text-egw bg-secondary border-white border-2 px-10 py-3 rounded-full font-bold'>
               Apply 
             </Link>
             </div>
-            <p className="mt-2 text-center">
+            <p className="pt-1  text-center">
               Not ready to apply? <a href="/learn-more" className="text-primary underline hover:text-blue-700">Learn More</a>
             </p>
         </div>
