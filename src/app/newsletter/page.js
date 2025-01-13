@@ -4,7 +4,7 @@ export default function Newsletter() {
     return (
      <>
             <div className=" lg:mx-auto lg:max-w-screen-lg flex flex-col items-center px-1 py-4">
-            <div className="xs:text-center xs:flex xs:flex-col w-full p-2 mt-4 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-4 bg-egw text-primary">
+            <div className="xs:text-center xs:flex xs:flex-col w-full p-2 mt-4 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-4 bg-cultured">
  
                 <h1 className="md:text-3xl  text-center xs:text-2xl lg:text-4xl p-4 font-bold col-span-1 row-span-2">
                     allyours Newsletter

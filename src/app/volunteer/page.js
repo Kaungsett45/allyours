@@ -28,12 +28,12 @@ export default function Volunteer(){
           
             { /* Learn  Section */}
             <div className="flex justify-center">
-            <Link href="#" className='mb-2  mt-6 text-egw bg-secondary border-white border-2 px-10 py-3 rounded-full font-bold'>
+            <Link href="#" className='mb-2  mt-8 text-pureb border-2 bg-cultured border-bluetx  px-10 py-2 rounded-full font-bold'>
               Apply 
             </Link>
             </div>
             <p className="pt-1  text-center">
-              Not ready to apply? <a href="/learn-more" className="text-primary underline hover:text-blue-700">Learn More</a>
+              <a href="/learn-more" className="text-primary underline hover:text-blue-700">Not ready? We’ll be here.</a>
             </p>
         </div>
       

@@ -6,17 +6,17 @@ export default function Supportus(){
     return(
 
 
-        <div className=" mt-10 bg-egw">
-             <h1 className='md:text-3xl   p-3 text-center font-bold text-4xl xs:text-2xl text-secondary tracking-wider'>Join Hands with allyours</h1>
+        <div className=" mt-10 bg-cultured">
+             <h1 className='md:text-3xl   p-4 text-center font-bold text-4xl xs:text-2xl text-pureb tracking-wider'>Join Hands with allyours</h1>
             
             {/**partnarship & donation part */}
-             <div className="pb-6 flex justify-center gap-4 flex-wrap">
+             <div className="pb-6 flex justify-center gap-4 flex-wrap text-pureb">
                         
 
-            <div className="max-w-sm p-6 bg-secondary rounded-md">
-                🤝 <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Partnership Opportunities</h5>
+            <div className="max-w-sm p-6 bg-cultured border rounded-lg shadow-md">
+                🤝 <h5 className="mb-2 text-2xl font-semibold tracking-tight ">Partnership Opportunities</h5>
                
-                <p className="text-pretty mb-3 font-normal text-gray-500 dark:text-gray-400">At allyours, we believe in the transformative power of collaboration. Partnering with us means contributing to initiatives that promote creativity, education, and sustainability in the communities. Together, we can foster innovation, build equitable futures, and create lasting impact.</p>
+                <p className="text-pretty mb-3 font-normal ">At allyours, we believe in the transformative power of collaboration. Partnering with us means contributing to initiatives that promote creativity, education, and sustainability in the communities. Together, we can foster innovation, build equitable futures, and create lasting impact.</p>
                 <a href="#" className="inline-flex font-medium items-center text-blue-600 hover:underline">
                     Email us
                     <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
@@ -25,10 +25,10 @@ export default function Supportus(){
                 </a>
             </div>
 
-            <div className="max-w-sm p-6 bg-secondary rounded-md">
-            ❤️ <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Donation Details</h5>
+            <div className="max-w-sm p-6 bg-cultured  border rounded-lg shadow-md">
+            ❤️ <h5 className="mb-2 text-2xl font-semibold tracking-tight ">Donation Details</h5>
                
-                <p className="text-pretty mb-3 font-normal text-gray-500 dark:text-gray-400">Your support can make a difference. Whether it's a financial contribution, in-kind support, or sponsorship, your generosity helps us provide tools, workshops and opportunities to the communities and passionate individuals. Together, we can catalyze change and empower the leaders of tomorrow.</p>
+                <p className="text-pretty mb-3 font-normal 0">Your support can make a difference. Whether it's a financial contribution, in-kind support, or sponsorship, your generosity helps us provide tools, workshops and opportunities to the communities and passionate individuals. Together, we can catalyze change and empower the leaders of tomorrow.</p>
                 <a href="#" className="inline-flex font-medium items-center text-blue-600 hover:underline">
                     Email us
                     <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">

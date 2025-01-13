@@ -10,8 +10,8 @@ export default function Home() {
       
     
     <Parallax  >
-        <HeroSection/>
-         <VisionMission/>
+        {/* <HeroSection/>
+         <VisionMission/> */}
     </Parallax>
      
      

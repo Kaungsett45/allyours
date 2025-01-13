@@ -16,7 +16,7 @@ export default function Apply() {
             <h2 className="uppercase xs:text-md md:text-lg lg:text-xl font-semibold  inline-block py-2 px-4 rounded">
               Prerequisite
             </h2>
-            <p className="">An applicant should have a history of completing a project which falls into one of the categories mentioned below.</p>
+            <p className=""> An applicant should have a history of completing a project or a committed project which falls into one of the categories mentioned below.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
               <div className="flex items-center gap-2 p-4 border rounded-lg shadow-md">
@@ -36,13 +36,13 @@ export default function Apply() {
                 <span>Illustrative design series</span>
               </div>
             </div>
-            <div className='mt-6  text-egw   font-bold'>
-            <Link href="#" className="mb-2  text-egw bg-secondary border-white border-2 px-10 py-4 rounded-full font-bold">
+            <div className='mt-12 text-egw   font-bold'>
+            <Link href="#" className="mb-2  text-pureb border-2 bg-cultured border-bluetx  px-10 py-3 rounded-full font-bold">
               Apply 
             </Link>
             </div>
             <p className="mt-2 p-4">
-              Not ready to apply? <a href="/learn-more" className="text-primary underline hover:text-blue-700">Learn More</a>
+               <a href="/learn-more" className="text-primary underline hover:text-blue-700">Not ready? We’ll be here. </a>
             </p>
           </section>
       </div> 

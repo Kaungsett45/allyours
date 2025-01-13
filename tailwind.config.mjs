@@ -27,11 +27,12 @@ export default {
         // header,title . lg  desc- md some-sl,xl
       },
       colors: {
-        primary: '#393A5A',
-        secondary: '#22222E',
-        eg: '#706F8E',
-        eg2s: '#ADA9BA',
-        egw: '#E9E9E9',
+        bluetx: '#005CFE',
+        pureb: '#000000',
+        cultured: '#E2E2E7',
+        vividviolet: '#A200FE',
+        ornaged : '#FEA200',
+        springgreen: '#00FEA2'
       },
     },
   },

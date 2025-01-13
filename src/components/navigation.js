@@ -24,7 +24,7 @@ export default function Navigation() {
   ]
 
   return (
-    <div className="relative z-50 mt-4">
+    <div className="relative z-50 mt-4 ">
       {/*  menu for small screens */}
       <div className="xs:justify-end flex justify-between items-center px-4 md:hidden">
         <button
@@ -47,8 +47,8 @@ export default function Navigation() {
               key={index}
               className={`text-xl ${
                 pathname === item.path
-                ? "text-white font-extrabold"
-                : "text-eg2s hover:text-white"
+                ? "text-bluetx font-bold "
+                : "text-cultured "
             }`}
             >
               <Link href={item.path} onClick={() => setIsOpen(false)}>
@@ -62,8 +62,8 @@ export default function Navigation() {
             key={index}
             className={` ${
               pathname === item2.path
-              ? "text-secondary bg-egw mx-1  border-2  border-secondary  px-4 py-2 rounded-full"
-              :  "mx-1 bg-secondary border-2 text-egw border-white  px-4 py-2 rounded-full"
+              ? "text-secondary bg-cultured mx-1  border-2  border-secondary  px-4 py-2 rounded-full"
+              :  "mx-1 bg-secondary border-2 bg-cultured border-bluetx  px-4 py-2 rounded-full"
            }`}
           >
             <Link href={item2.path} onClick={() => setIsOpen(false)}>
@@ -82,8 +82,8 @@ export default function Navigation() {
             key={index}
             className={`mx-1 my-2 ${
               pathname === item.path
-                ? "text-white font-extrabold"
-                : "text-eg2s hover:text-white"
+                ? "text-bluetx font-extrabold"
+                : "text-cultured "
             }`}
           >
             <Link href={item.path}>
@@ -97,8 +97,8 @@ export default function Navigation() {
             key={index}
             className={` ${
               pathname === item2.path
-               ? "text-secondary bg-egw mx-1  border-2  border-secondary  px-4 py-2 rounded-full"
-               :  "mx-1 bg-secondary border-2 text-egw border-white  px-4 py-2 rounded-full"
+               ? "text-pureb bg-cultured mx-1  border-2  border-bluetx  px-4 py-2 rounded-full"
+               :  "mx-1 bg-secondary border-2 text-cultured border-bluetx  px-4 py-2 rounded-full"
             }`}
           >
             <Link href={item2.path}>
