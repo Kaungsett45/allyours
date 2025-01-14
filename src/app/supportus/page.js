@@ -10,7 +10,7 @@ export default function Supportus(){
              <h1 className='md:text-3xl   p-4 text-center font-bold text-4xl xs:text-2xl text-pureb tracking-wider'>Join Hands with allyours</h1>
             
             {/**partnarship & donation part */}
-             <div className="pb-6 flex justify-center gap-4 flex-wrap text-pureb">
+             <div className="m-4 pb-6 flex justify-center gap-4 flex-wrap text-pureb">
                         
 
             <div className="max-w-sm p-6 bg-cultured border rounded-lg shadow-md">
