@@ -39,7 +39,7 @@ const MultiLayerParallax = () => {
        <div
         className="absolute inset-0 bg-cover bg-no-repeat lg:-mt-24"
         style={{
-          backgroundImage: "url('/bgwhite.png')",
+          backgroundImage: "url('/bgwhite3.jpeg')",
           objectFit: 'contain',
           transform: `translateY(${offset * 0.4}px)`, 
         }} 
