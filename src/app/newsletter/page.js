@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Newsletter() {
     return (
@@ -53,9 +54,9 @@ export default function Newsletter() {
     <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">📰 Blog Archive</h5>
     <p className="my-2 text-white text-pretty">
     Missed a newsletter or want to revisit an inspiring story? Explore our Blog Archive : your gateway to all past allyours updates.
-      <button className="block w-full py-2 mt-4 text-center font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700">
+      <Link  href="https://docs.google.com/document/d/1-YSrljX2Pzhg1k2Yb8_xJKSqBhHODyeB/edit?usp=sharing&ouid=106958766191999291898&rtpof=true&sd=true"className="block w-full py-2 mt-4 text-center font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700">
         Explore Blog Archive
-      </button>
+      </Link>
     </p>
   </div>
 
