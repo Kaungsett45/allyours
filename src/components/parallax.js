@@ -5,7 +5,7 @@
 import { useEffect, useState } from "react";
 
 import HeroSection from '@/components/hero';
-import VisionMission from '@/components/visionmission';
+import VisionMissionEx from '@/components/visionmission2';
 
 const MultiLayerParallax = () => {
   const [offset, setOffset] = useState(0);
@@ -48,7 +48,7 @@ const MultiLayerParallax = () => {
      
       <div className="relative z-10 text-center ">
          <HeroSection/>
-         <VisionMission/> </div>
+         <VisionMissionEx/> </div>
     </div>
   );
 };

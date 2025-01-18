@@ -24,7 +24,7 @@ export default function Navigation() {
   ]
 
   return (
-    <div className="relative z-50 mt-4 ">
+    <div className="relative z-20 mt-4 ">
       {/*  menu for small screens */}
       <div className="xs:justify-end flex justify-between items-center px-4 md:hidden">
         <button
