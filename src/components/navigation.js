@@ -31,7 +31,7 @@ export default function Navigation() {
           onClick={() => setIsOpen(!isOpen)}
           className="text-white focus:outline-none z-50"
         >
-          {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+          {isOpen ? <FiX size={36} /> : <FiMenu size={36} />}
         </button>
       </div>
 

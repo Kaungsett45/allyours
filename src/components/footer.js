@@ -22,7 +22,7 @@ export default function Footer(){
            <div className='xs:flex xs:flex-col xs:my-2 xs:items-center sm:flex-row sm:justify-between '>
                 <Link href="#" className="my-2">allyours11.mm@gmail.com</Link>
                             <div className="flex gap-4">
-            <Link href="#" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/company/allyours-myanmar/" aria-label="LinkedIn">
                 <FaLinkedin className="w-6 h-6 " />
             </Link>
             <Link href="https://www.facebook.com/share/RD4EsjE6CeMEKBLh/?mibextid=wwXIfr" aria-label="Facebook">

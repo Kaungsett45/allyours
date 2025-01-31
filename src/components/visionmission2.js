@@ -7,7 +7,6 @@ import { FaEye, FaHandsHelping } from 'react-icons/fa';
 
     return(
         <>
-    <SlideUp>
   <section className="my-12 border-green-400  p-6
   ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
@@ -60,7 +59,6 @@ import { FaEye, FaHandsHelping } from 'react-icons/fa';
           </div>
         </div>
       </section>
-      </SlideUp>
 
  </>
     )
