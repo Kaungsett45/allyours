@@ -12,7 +12,7 @@ export default function Footer(){
         <div className=" block p-4 bg-secondary text-cultured w-auto text-center">
            
             <h1 className='text-2xl p-2 font-bold'>“allyours” is different.</h1>
-           <div className='text-xs'>
+           <div className='text-xs/6'>
             <p className="text-pretty">Target small leaders and soloists
             who wish to pursue their own individual projects in art, design, and education.</p>
            </div>

@@ -1,3 +1,4 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import './globals.css'
 
@@ -12,8 +13,6 @@ const geistMono = Geist_Mono({
 });
 
 import Fnavigation from '../components/navigation';
-import Parallax from '../components/parallax';
-
 import AllFooter from '../components/footer';
 
 export const metadata = {
@@ -22,6 +21,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
+
+    
+
   return (
     <html lang="en">
        <head>
@@ -30,10 +33,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         
+        
       >
     
          <Fnavigation/>  {/* navigation components*/}
-          <div className="animate-fadeIn">{children}</div>
+              {children} 
           <AllFooter/>
           </body>
     </html>

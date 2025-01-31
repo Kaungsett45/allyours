@@ -1,11 +1,12 @@
 
+"use client"
 
-
+import SlideUp from "@/components/slideupanimation";
 export default function Supportus(){
 
     return(
 
-
+        <SlideUp>
         <div className=" mt-10 bg-cultured">
              <h1 className='md:text-3xl   p-4 text-center font-bold text-4xl xs:text-2xl text-pureb tracking-wider'>Join Hands with allyours</h1>
             
@@ -39,7 +40,7 @@ export default function Supportus(){
 
              </div>
         </div>
-
+        </SlideUp>
 
     )
 }

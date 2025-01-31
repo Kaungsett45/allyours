@@ -1,9 +1,11 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
-
+import SlideUp from "@/components/slideupanimation";
 export default function Newsletter() {
     return (
      <>
+     <SlideUp>
             <div className=" lg:mx-auto lg:max-w-screen-lg flex flex-col items-center px-1 py-4">
             <div className="xs:text-center xs:flex xs:flex-col w-full p-2 mt-4 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-4 bg-cultured">
  
@@ -73,7 +75,7 @@ export default function Newsletter() {
             </div> 
 
 
-
+ </SlideUp>
       </>
     );
   }

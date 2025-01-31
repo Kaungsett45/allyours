@@ -1,5 +1,6 @@
+"use client"
 
-
+import SlideUp from "@/components/slideupanimation";
 import Image from 'next/image';
 import Link from "next/link";
 export default function Volunteer(){
@@ -7,7 +8,7 @@ export default function Volunteer(){
 
 
     return(
-
+<SlideUp>
         <div className=" xs:py-2 xs:my-2 bg-gray-50  flex flex-col items-center lg:px-4 lg:py-6 ">
       
          <h1 className='md:text-3xl  xs:text-2xl font-bold text-4xl  tracking-wider text-secondary'>Welcome to allyours</h1>
@@ -44,6 +45,6 @@ export default function Volunteer(){
         </div> */ }
       </div>
       
-
+      </SlideUp>
     )
 }

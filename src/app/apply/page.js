@@ -1,10 +1,12 @@
 
-import Image from 'next/image';
+"use client"
 
+import SlideUp from "@/components/slideupanimation";
 import Link from "next/link";
 export default function Apply() {
     return (
       <>
+      <SlideUp>
      <div className='bg-gray-100'>
             <div className='  lg:mx-auto lg:max-w-screen-lg mt-4'>
               
@@ -47,6 +49,7 @@ export default function Apply() {
           </section>
       </div> 
     </div>
+    </SlideUp>
     </>
     );
   }

@@ -4,8 +4,8 @@ import { FaHandsHelping, FaLeaf } from "react-icons/fa";
 import { useState } from "react";
 import Image from 'next/image';
 import allyours from '../../../public/logo/allyours.webp';
-import about from '../../../public/about/aboutimg.webp';
 
+import SlideUp from "@/components/slideupanimation";
 import FlipCardComponent from "../../components/flipcard";
 export default function About() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -15,6 +15,7 @@ export default function About() {
   };
     return (
      <>
+     <SlideUp> 
         <div className="lg:mx-auto lg:max-w-screen-lg flex flex-col items-center  text-white text-center mt-2 p-4">
             
                 <Image src={allyours} alt="All Yours Logo" width={80} height={80} className=" "/>
@@ -23,12 +24,14 @@ export default function About() {
                 {/* <Image src={about} alt="About"lg:grid-cols-[3fr,2fr]  width={280} height={200} className="rounded-lg "/> */}
               </div>
         </div>
+        </SlideUp>
 
-
-          {/**flip Card Desing */}
-    <FlipCardComponent />
+        <SlideUp>    {/**flip Card Desing */}
+    <FlipCardComponent /></SlideUp>
         {/*what we Offer  */}
+
         <div className="bg-cultured">
+        <SlideUp>
         <div className='  text-pureb xs:px-2 xs:py-4 xs:text-center  lg:p-4 lg:flex lg:flex-col  lg:items-center '>
                 <h1 className=' p-2 font-bold  text-pure w-full text-center sm:text-4xl text-2xl   tracking-wider'>Our Services</h1>
 
@@ -63,7 +66,7 @@ export default function About() {
                       
                 </div>
         </div>
-
+        </SlideUp>
 
       
      
@@ -72,7 +75,7 @@ export default function About() {
 
 
   
-
+        <SlideUp>
 {/**Carbon Emission */}
 <section className=" text-pureb text-center  xs:text-sm  py-10 lg:text-md">
       <div className="px-2 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -113,6 +116,7 @@ export default function About() {
 
       </div>
     </section>
+    </SlideUp>
     </div>
       </>
     );
