@@ -39,13 +39,13 @@ export default function Apply() {
               </div>
             </div>
             <div className='mt-12 text-egw   font-bold'>
-            <Link href="#" className="mb-2  text-pureb border-2 bg-cultured border-bluetx  px-10 py-3 rounded-full font-bold">
+            <Link href="https://allyours.fillout.com/t/x1SrEBquRXus" className="mb-2  text-pureb border-2 bg-cultured border-bluetx  px-10 py-3 rounded-full font-bold">
               Apply 
             </Link>
             </div>
-            <p className="mt-2 p-4">
+            {/* <p className="mt-2 p-4">
                <a href="/learn-more" className="text-primary underline hover:text-blue-700">Not ready? We’ll be here. </a>
-            </p>
+            </p> */}
           </section>
       </div> 
     </div>

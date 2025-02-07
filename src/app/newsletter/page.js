@@ -65,9 +65,10 @@ export default function Newsletter() {
   {/* Subscription */}
   <div className="p-4 pt-4 max-w-sm mt-6">
     <h5 className="xs:text-center text-xl font-semibold tracking-tight text-gray-900 dark:text-white">🔔 Subscription</h5>
+    <a href='https://substack.com/@allyours1/reads?r=57y3qz&utm_campaign=profile&utm_medium=profile-page'>
     <button className="block w-full py-2 mt-4 text-center font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700">
         Sign Up Here
-      </button>
+      </button></a>
   </div>
 </div>
 

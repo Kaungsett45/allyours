@@ -26,16 +26,19 @@ export default function Volunteer(){
           <p className="text-center text-secondary text-pretty mb-6">
             allyours offers volunteer opportunities regularly to those who wish to support specialists and community events, gaining hands-on experience.
           </p>
-          
+          <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-6" role="alert">
+            <p className="font-bold">Notice!</p>
+            <p>We are running with volunteers only for 6 months for our very first pilot program and securing the supports.</p>
+          </div>
             { /* Learn  Section */}
             <div className="flex justify-center">
             <Link href="#" className='mb-2  mt-8 text-pureb border-2 bg-cultured border-bluetx  px-10 py-2 rounded-full font-bold'>
               Apply 
             </Link>
             </div>
-            <p className="pt-1  text-center">
+            {/* <p className="pt-1  text-center">
               <a href="/learn-more" className="text-primary underline hover:text-blue-700">Not ready? We’ll be here.</a>
-            </p>
+            </p> */}
         </div>
       
          {/* /* Contact  Section

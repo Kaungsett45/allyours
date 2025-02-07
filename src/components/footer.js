@@ -16,9 +16,9 @@ export default function Footer(){
             <p className="text-pretty">Target small leaders and soloists
             who wish to pursue their own individual projects in art, design, and education.</p>
            </div>
-             <button className='text-xl p-2 font-bold'>Join Us</button>
+             {/* <button className='text-xl p-2 font-bold'>Join Us</button>
              <p className='text-xs text-pretty'> & be the one to get it all. </p>
-           
+            */}
            <div className='xs:flex xs:flex-col xs:my-2 xs:items-center sm:flex-row sm:justify-between '>
                 <Link href="#" className="my-2">allyours11.mm@gmail.com</Link>
                             <div className="flex gap-4">

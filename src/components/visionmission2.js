@@ -11,22 +11,22 @@ import { FaEye, FaHandsHelping } from 'react-icons/fa';
   ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
           {/** Vision Section */}
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center ">
             <div className="flex items-center justify-center mb-4">
               <FaEye className="text-gray-700 w-6 h-6 mr-2" /> {/* Vision Icon */}
               <h1 className="font-semibold text-4xl">Vision</h1>
             </div>
-            <p className="py-4 text-lg/8">
+            <p className="py-4 text-lg/8 border-2 border-bluetx rounded-xl">
               A net-zero innovation hub that fosters creativity and education. 
               We empower individuals to thrive independently while building strong community connections.
             </p>
-            <Image 
+            {/* <Image 
               src="/ourworks/laidback.webp" 
               alt="Works" 
               width={420} 
               height={120} 
               className="rounded-sm mx-auto"
-            />
+            /> */}
           </div>
 
     
